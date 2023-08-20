@@ -1,0 +1,12 @@
+@media only screen and (max-width:1024px)
+{
+    Table
+    {
+        border: 1px solid white;
+    }
+    Tbody
+    {
+        border: 1px solid white;
+    }
+ 
+}

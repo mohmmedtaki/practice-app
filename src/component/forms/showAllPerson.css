@@ -1,0 +1,75 @@
+.activ
+{
+    background-color:#0874fb;
+    padding: 2px 13px;
+    border-radius: 36px;
+    color:white;
+}
+.prevv{
+    cursor: pointer;
+    font-size: 24px;
+    padding-right:10px;
+    padding-left: 10px;
+}
+.nextt
+{
+    cursor: pointer;
+    font-size: 24px;
+    padding-right:10px;
+    padding-left: 10px;
+}
+
+.lineee
+{
+  
+    padding-right:20px;
+    padding-left: 20px;
+}
+.tablee
+{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+div#root, .App
+{
+    width: 100%;
+    min-height: 100%;
+}
+.App
+{
+    display:flex;
+    align-items: center;
+    user-select: none;
+    width: 100%;
+    font-size: 17px;
+    border-collapse: collapse;
+}
+.containerr
+{
+    overflow-x:auto ;
+    max-width: 1000vh;
+   
+}
+table .trrr
+{
+    white-space: nowrap;
+}
+.theadddd
+{
+    background: #0874fb;
+    color: white;
+}
+thead .trrr th{
+    padding: 19px 20px;
+}
+
+.trrr td
+{
+    padding: 7px;
+}
+thead .trrr th:nth-child(2)
+{
+    min-width: 400px;
+}

@@ -1,0 +1,76 @@
+
+.containe
+{
+    display: flex;
+    height: 350px;
+    width: 450px;
+    border:1px solid black;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 20px 20px 20px black;
+}
+.Form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.Form h2{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;
+}
+.box
+{
+    padding: 12px;
+    width: 75%;
+    margin: 10px;
+    border:1px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+.submit
+{
+    padding: 12px;
+    width: 40%;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #750000;
+}
+
+@media only screen and (max-width:1024px)
+{
+    .containe
+    {
+        display: flex;
+        height: 320px;
+        width: 90%;  
+    }
+    .Form{
+        width:100%;
+    }
+    .Form h2{
+        font-size: 2.3rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 20px;
+    }
+    .box
+    {
+        padding: 6px;
+        width: 80%;
+        margin: 10px;
+        border:1px solid black;
+        outline: none;
+        border-radius: 20px;
+    }
+}
